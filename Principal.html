@@ -1,0 +1,168 @@
+<html>
+
+<head><!-- Es la parte divisora cabeza de la pagina-->
+  <!--Title le agrega un nombre a las pestaña-->
+  <title>Loyalty</title>
+  <!--Agrega una galeria de iconos y fuentes mediante la etiqueta link permitiendonos almacenar links y href que nos permite introducir el link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!-- type=image/icon le da formato de icono- -->
+  <link rel="icon" type="iimage/x-icon" href="Multimedia/1.png">
+  <!-- Elemento de division del header -->
+  <header>
+    <!--div es la etiqueta que nos permite crear divisiones de bloques -->
+    <!--Crea un div con la clase interior-->
+      <!--a nos permite almacenar links , href nos permite almacenar los links, target blanck nos abre otro  -->
+      <a class="logo" href="Principal.html" target="blank"><img src="Multimedia/logoz.jpeg" alt="Logo"></a>
+      <!-- nav sirve para indicar que los enlaces dentro de esta son enlaces de navegacion-->
+      <nav class="navegacion">
+        <!-- ul es el contenedor de una lista desordenada-->
+        <ul>
+          <!--li son los elementos dentro de la lista , i enfatiza una palabra , clas= fa * utiliza un icono de la galeria-->
+          <li><a href="Principal.html"><i id="icon" class="fa-solid fa-house"></i>Inicio</a></li>
+          <!--li son los elementos dentro de la lista , i enfatiza una palabra , clas= fa * utiliza un icono de la galeria-->
+          <li><a href="Quienes.html"><i id="icon" class="fa-solid fa-user"></i>Nosotros</a></li>
+          <!--li son los elementos dentro de la lista , i enfatiza una palabra , clas= fa * utiliza un icono de la galeria-->
+          <li><a href="Multimedia/Loyalty Menu.pdf" target="_blank"><i id="icon"
+                class="fa-solid fa-mug-hot"></i>Menù</a></li>
+          <!--li son los elementos dentro de la lista , i enfatiza una palabra , clas= fa * utiliza un icono de la galeria-->
+          <li><a href="Registrate.html"><i id="icon" class="fa-regular fa-address-card"></i>Regìstrate</a></li>
+        </ul>
+      </nav>
+  </header>
+</head>
+<!--es el contenedor del cuerpo de la pagina-->
+
+<body>
+  <!--div es la etiqueta que nos permite crear divisiones de bloques -->
+  <!-- class'cada-video' es el contenedor del video de  la pagina principal-->
+  <div class="caja-video">
+    <!-- Video es el contenedor para añadir videos, autoplay es para que el video se reproduzca automaticamente, Loop es para que se reproduzca en bucle
+     muted hace que el video se reproduzca sin sonido y poster agrega una imagen en el caso que el video no se reproduzca-->
+    <video autoplay muted loop poster="Multimedia/2.png">
+      <!--source nos permite utilizar un recurso multimedia de nuestra computadora y src nos permite establecer la conexion-->
+      <source src="Multimedia/Cafe2.mp4">
+      <source>
+    </video>
+
+    <!--div es la etiqueta que nos permite crear divisiones de bloques -->
+    <!--class contenedor1 es el contenedor de las letras dentrode la pagina principal-->
+    <div class="contenedor1">
+      <p class="Enombre">Loyalty</p>
+      <a href="Multimedia/Loyalty Menu.pdf" target="_blank">
+        <input type="submit" value="Visita Nuestra Galeria" class="boton">
+      </a>
+    </div>
+
+
+</body>
+
+
+<!--Es el contenedor de division del footer de la pagina-->
+<footer>
+  <!--contenedor del footer -->
+  <div class="footer">
+    <a href="Principal.html" class="logo2" target="blank"><img src="Multimedia/1 (2).png" alt="Logo"></a>
+    <!--contenedor de los items dentro del footer-->
+    <div class="contain">
+
+      <!--contenedor de las columnas items dentro del footer-->
+      <div class="col">
+        <!--H1 delimita el tamaño de una letra dependiendo del valor , en este contexto es el titulo de cada columna-->
+        <h1>Ubicaciòn</h1>
+        <!--contenedor de una lista desordenada-->
+        <ul>
+          <!--li son los elementos dentro de una lista-->
+          <li>Santiago</li>
+          <!--li son los elementos dentro de una lista-->
+          <li>Av 27 de febrero</li>
+          <!--li son los elementos dentro de una lista-->
+          <li>Frente a Ars Senasa</li>
+        </ul>
+      </div>
+      <div class="col">
+        <!--H1 delimita el tamaño de una letra dependiendo del valor , en este contexto es el titulo de cada columna-->
+        <h1>Horario</h1>
+        <!--contenedor de una lista desordenada-->
+        <ul>
+          <!--li son los elementos dentro de una lista-->
+          <li>Lunes-Viernes 
+              8AM- 10PM
+          </li>
+          <!--li son los elementos dentro de una lista-->
+          <li>Sàbados-Domingos
+              8AM-12PM
+          </li>
+        
+          
+        </ul>
+      </div>
+
+      <div class="col">
+        <!--H1 delimita el tamaño de una letra dependiendo del valor , en este contexto es el titulo de cada columna-->
+        <h1>Contacto</h1>
+        <!--contenedor de una lista desordenada-->
+        <ul>
+          <!--li son los elementos dentro de una lista-->
+          <li>809-736-7811</li>
+          <!--li son los elementos dentro de una lista-->
+          <li>Loyalty3123@gmail.com</li>
+          <!--li son los elementos dentro de una lista-->
+          <li>Loyalty#2131</li>
+          <!--li son los elementos dentro de una lista-->
+          <li>No dudes en contactarnos!</li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <!--H1 delimita el tamaño de una letra dependiendo del valor , en este contexto es el titulo de cada columna-->
+        <h1>Soporte</h1>
+        <!--contenedor de una lista desordenada-->
+        <ul>
+          <!--li son los elementos dentro de una lista-->
+          <li>Contàctanos</li>
+          <!--li son los elementos dentro de una lista-->
+          <li>Ayuda</li>
+          <!--li son los elementos dentro de una lista-->
+          <li>Añadir sugerencia</li>
+        </ul>
+      </div>
+
+      
+      <div class="col social">
+        <!--H1 delimita el tamaño de una letra dependiendo del valor , en este contexto es el titulo de cada columna-->
+        <h1>Sìguenos</h1>
+        <!-- contenedor de la barra de redes sociales -->
+        <div class="social-media">
+          <!--a nos permite almacenar links ,class=fab ** nos permite agregar un icono de nuestra galeria  -->
+          <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+           <!--a nos permite almacenar links ,class=fab ** nos permite agregar un icono de nuestra galeria  -->
+           <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+           <!--a nos permite almacenar links ,class=fab ** nos permite agregar un icono de nuestra galeria  -->
+           <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+           <!--a nos permite almacenar links ,class=fab ** nos permite agregar un icono de nuestra galeria  -->
+          <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+           <!--a nos permite almacenar links ,class=fab ** nos permite agregar un icono de nuestra galeria  -->
+        </div>
+
+      </div>
+
+    </div>
+    <!-- contonedor de las politicas-->
+    <div class="politicas">
+      <!-- contonedor de las politicas-->
+    <div class="clearfix"></div>
+    <!--hr crea una linea horizontal-->
+    <hr>
+    <p class="politicas">©2023 Loyalty.Todos los Derechos reservados.</p>
+  </div>
+</div>
+
+
+ 
+
+
+</footer>
+
+</html>
+
+<link rel="stylesheet" href="Principal.css">
